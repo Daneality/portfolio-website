@@ -1,0 +1,103 @@
+*{
+	box-sizing: border-box;
+}
+
+html{
+	position: relative;
+}
+.top_triangle{
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 80%;
+    height: 665px;
+	background: url(triangle.cee26124.svg) 0% 0% / contain no-repeat;
+	z-index: -100;
+	max-width: 1000px;
+}
+
+.inner{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.inner ul{
+	margin: 25px 0 0 20px;
+	padding: 0;
+}
+
+.inner li,
+.inner a{
+	display: inline-block;
+	margin-right: 14px;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: aliceblue;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+	transition: color 1s;
+}
+
+.inner a:hover{
+	color: aqua;
+}
+
+.logo img{
+	width: 150px;
+	height: 150px;
+}
+
+.logo{
+	margin: 20px 6% 0 0;
+}
+
+
+footer{
+	position: absolute;
+	width: 100%;
+	margin-top: 30px;
+	bottom: -150px;
+	left: 0px;
+}
+
+footer .inner{
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+	background-color: #00B4D8;
+	padding: 20px 0;
+}
+
+#copyright{
+	font-size: 20px;
+	color: aliceblue;
+	font-weight: bold;
+	margin-right: 20px;
+}
+
+.main{
+	margin: 0 20%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.grid{
+	display: grid;
+	grid-template: 250px 250px/ 1fr 1fr 1fr;
+}
+
+.grid div{
+ margin-left: 5px;
+}
+
+.grid img{
+	width: 100%;
+	height: auto;
+}
+
+.grid figure{
+	margin: 0;
+}

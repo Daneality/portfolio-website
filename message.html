@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="s_messages.css">
+		<title>Message</title>
+    </head>
+    <body>
+		<div class="top_triangle"></div>
+		<header class="header">
+			<div class="inner">
+				<nav>
+					<ul>
+						<li><a href="index.html">Daneality</a></li>
+						<li><a href="message.html">Message requst</a></li>
+						<li><a href="contacts.html">Contacts</a> </li>
+						<li><a href="photos.html">Photos</a> </li>
+					</ul>
+				</nav>
+				<div class="logo">
+					<img src="daneality_logo.png" alt="daneality_logo">
+				</div>
+			</div>
+		</header>
+        <form action="/form-handling-url" method="post">
+            <fieldset class="field">
+			<legend class="legend">Send me a message</legend>
+			<div class="fs">
+				<div class="oneline half_width">
+					<label for="name">First name:</label>
+					<input type="text" id="name" name="name">
+				</div>
+
+				<div class="oneline half_width">
+					<label for="email">Email:</label>
+					<input type="email" id="email" name="email_address">
+				</div>
+
+				<div class="st_width comments">
+					<label for="Message">Your message:</label>
+					<textarea id="Message" name="Message"></textarea>
+				</div>
+
+				<div class="st_width checks">
+					<input type="checkbox" id="terms" name="terms" value="Terms">
+					<label for="terms"> Agree to private informtion processing</label>
+				</div>
+				<div>
+					<button id="submit" type="submit">Submit</button>
+				</div>
+			</div>
+            </fieldset>
+        </form>
+		<footer>
+			<div class="inner">
+				<span id="copyright">site made by @Daneality</span>
+			</div>
+		</footer>
+    </body>
+</html>
